@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-sky color="#f0b6ec">
+            <a-torus-knot position="0 2 -10" arc="67" p="3" q="12" radius="3" radius-tubular="0.2" color="green" segments-tubular="2000"></a-torus-knot>
+            <a-plane position="-5 2 -5" rotation="15 35 0" width="2" height="3" color="blue" roughness="0.0"></a-plane>
+            <a-tetrahedron position="7 2 -8" radius="3" rotation="23 42 0" color="red" metalness="0.5" roughness="0.9"></a-tetrahedron>
+            <a-light position="-4 2 -2" intensity="2" type="point" penumbra="0.5" color="#yellow"></a-light>
+        </a-sky>
+    </a-scene>
+</body>
+
+</html>
